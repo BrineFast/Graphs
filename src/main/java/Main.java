@@ -1,3 +1,6 @@
+import GraphStructures.Graph;
+import GraphStructures.Pair;
+
 import java.util.HashMap;
 import java.util.Scanner;
 

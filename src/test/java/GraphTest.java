@@ -169,7 +169,7 @@ public class GraphTest {
     @Test
     public void testBellmanFord() throws IOException {
         Graph graph = Graph.createGraphFromFile(TEST_DIR + "findRadiusTest.json");
-        System.out.println(yenAlgorithm(graph,"5", "1", 2));
+        System.out.println(yenAlgorithm(graph,"5", "1", 4));
     }
 
     @Test

@@ -363,7 +363,7 @@ public class Graph {
         for (; ; ) {
             way.add(currentVertex);
             currentVertex = predecessor.get(currentVertex);
-            if (currentVertex.equals(startVertex)) {
+            if (currentVertex == null || currentVertex.equals(startVertex)) {
                 way.add(startVertex);
                 break;
             }
